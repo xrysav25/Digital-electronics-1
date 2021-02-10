@@ -47,16 +47,17 @@ end architecture dataflow;
    * ![Simulace](de_morgan.png)
    * [playground](https://www.edaplayground.com/x/vb3G)
    * tabulka:
-    a | b | c | f(a,b,c)
-    --|---|---|---------
-    0 | 0 | 0 | 1
-    0 | 0 | 1 | 1
-    0 | 1 | 0 | 0
-    0 | 1 | 1 | 0
-    1 | 0 | 0 | 0
-    1 | 0 | 1 | 1
-    1 | 1 | 0 | 1
-    1 | 1 | 1 | 0
+   
+a | b | c | f(a,b,c)
+--|---|---|---------
+0 | 0 | 0 | 1
+0 | 0 | 1 | 1
+0 | 1 | 0 | 0
+0 | 1 | 1 | 0
+1 | 0 | 0 | 0
+1 | 0 | 1 | 1
+1 | 1 | 0 | 1
+1 | 1 | 1 | 0
 
 # 3. Distributivní zákony
    * kód
