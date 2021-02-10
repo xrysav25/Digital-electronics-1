@@ -1,7 +1,7 @@
 ## DE1 LAB1
 # 1. GitHub link: https://github.com/xrysav25
 # 2. De Morganovy zákony
-    * Kód design.vhd
+   * Kód design.vhd
 ```
 ------------------------------------------------------------------------
 --
@@ -44,9 +44,9 @@ begin
     fnor_o <= (not (b_i or (not a_i))) or (not (c_i or b_i));
 end architecture dataflow;
 ```
-    * ![Simulace](de_morgan.png)
-    * [playground](https://www.edaplayground.com/x/vb3G)
-    * tabulka:
+   * ![Simulace](de_morgan.png)
+   * [playground](https://www.edaplayground.com/x/vb3G)
+   * tabulka:
     a | b | c | f(a,b,c)
     --|---|---|---------
     0 | 0 | 0 | 1
@@ -59,7 +59,7 @@ end architecture dataflow;
     1 | 1 | 1 | 0
 
 # 3. Distributivní zákony
-    * kód
+   * kód
     ```
     ------------------------------------------------------------------------
     --
@@ -102,6 +102,6 @@ end architecture dataflow;
         
     end architecture dataflow;
     ```
-    * ![Simulace](distributive_law.png)
-    * [playground](https://www.edaplayground.com/x/pkwS)
+   * ![Simulace](distributive_law.png)
+   * [playground](https://www.edaplayground.com/x/pkwS)
 
