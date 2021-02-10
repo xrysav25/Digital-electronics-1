@@ -1,7 +1,7 @@
-##DE1 LAB1
-1. #GitHub link: https://github.com/xrysav25
-2. #De Morganovy z·kony
-  * KÛd design.vhd
+## DE1 LAB1
+# 1. GitHub link: https://github.com/xrysav25
+# 2. De Morganovy z√°kony
+  * K√≥d design.vhd
 ```
 ------------------------------------------------------------------------
 --
@@ -58,8 +58,8 @@ end architecture dataflow;
     1 | 1 | 0 | 1
     1 | 1 | 1 | 0
 
-3. #DistributivnÌ z·kony
-  * kÛd
+# 3. Distributivn√≠ z√°kony
+  * k√≥d
     ```
     ------------------------------------------------------------------------
     --
