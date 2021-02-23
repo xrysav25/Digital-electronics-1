@@ -25,8 +25,8 @@
   ![mapa1](mapa1.png)
   ![mapa2](mapa2.png)
  * https://www.edaplayground.com/x/98md
-3.Code...
-  Design
+3. Code...
+ * Design
   ```vhdl
   ------------------------------------------------------------------------
 --
@@ -70,7 +70,7 @@ begin
 end architecture dataflow;
 ```
 
-Test:
+* Test:
 ```vhdl
 ------------------------------------------------------------------------
 --
