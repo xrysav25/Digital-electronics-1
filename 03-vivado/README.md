@@ -56,8 +56,10 @@
         
     end process p_stimulus;
     ```
-    * Simulation timewaves
-    ![simulace](simul.png)
+    
+   * Simulation timewaves
+   ![simulace](simul.png)
+
 # 3. Vivado tutorial
 
 # Vivado New Project Tutorial
