@@ -79,5 +79,6 @@
    Find "Add Source" in Project Manager menu or right click on something in your source menu. Select "Add or create simulation source"
    ![tutorial](tutorial_5.jpg)
 10. Go next and choose create file (if you don't have one somewhere hidden!) and name your file. It's better to use "tb" and name of your design file.
+   
    ![tutorial](tutorial_6.jpg)
 11. After compleeting testbench, you can run it! Find "Run Simulation" in Simulation menu or right click in Source menu on Simulation source
