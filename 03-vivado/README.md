@@ -58,26 +58,26 @@
   ```
     
    * Simulation timewaves
-   ![simulace](simul.png)
+   ![simulace](simul.jpg)
 
 # 3. Vivado tutorial
 
 # Vivado New Project Tutorial
 1. Create a new project
 2. Use difolt type: RTL Poroject
-   ![tutorial](tutorial_1.png)
+   ![tutorial](tutorial_1.jpg)
 3. Add source - create some designt file!
-   ![tutorial](tutorial_2.png)
+   ![tutorial](tutorial_2.jpg)
 4. Add Constraints - those files are usefull for hw implementation. No need to create one when we are going to just simulate something
 5. Default Part - choose your board!
 6. Finish!
 7. So here you have your new project. In this window you can add inputs and outputs.
-   ![tutorial](tutorial_3.png)
+   ![tutorial](tutorial_3.jpg)
 8. Your new design file is right here
-   ![tutorial](tutorial_4.png)
+   ![tutorial](tutorial_4.jpg)
 9. For playing, you need some test file as well. Create one!
    Find "Add Source" in Project Manager menu or right click on something in your source menu. Select "Add or create simulation source"
-   ![tutorial](tutorial_5.png)
+   ![tutorial](tutorial_5.jpg)
 10. Go next and choose create file (if you don't have one somewhere hidden!) and name your file. It's better to use "tb" and name of your design file.
-   ![tutorial](tutorial_6.png)
+   ![tutorial](tutorial_6.jpg)
 11. After compleeting testbench, you can run it! Find "Run Simulation" in Simulation menu or right click in Source menu on Simulation source
