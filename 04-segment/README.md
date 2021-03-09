@@ -1,8 +1,8 @@
 ## Lab 4
 # 1. Preparation tasks
-     * Figure or table with connection of 7-segment displays on Nexys A7 board
-       ![deska](board.png)
-     * Decoder truth table common anode
+   * Figure or table with connection of 7-segment displays on Nexys A7 board
+ ![deska](board.png)
+   * Decoder truth table common anode
 | **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -62,7 +62,7 @@ begin
     end case;
 end process p_7seg_decoder;
 ```
-    * stimulus
+   * stimulus
 ```vhdl
 p_stimulus : process
 begin
@@ -100,9 +100,9 @@ begin
     assert (s_seg = "0111000") report "Test failed for hex input combination: 1111" severity error;
 end process p_stimulus;
 ```
-    * testbench
+   * testbench
 ![testbench](testbench.jpg)
-    * top.vhd
+   * top.vhd
 ```vhdl
 architecture Behavioral of top is
 
@@ -128,7 +128,7 @@ begin
     LED(3 downto 0) <= SW;
 ```
 # 3. LED(7:4) indicators
-    * truth table
+   * truth table
 | **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 | 1 | 0 | 0 | 0 |
@@ -147,7 +147,7 @@ begin
 | d | 1101 | 0 | 1 | 1 | 0 |
 | E | 1110 | 0 | 1 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 0 |
-    * code
+   * code
 ```vhdl
 -- LED(7:4) indicators
 -- Turn LED(4) on if input value is equal to 0, ie "0000"
@@ -167,5 +167,5 @@ LED(4) <= '1' when (SW = "0001") else
          '1' when (SW = "1000") else
          '0';
 ```
-    * testbench
+   * testbench
 ![testbench](testbench2.jpg)
