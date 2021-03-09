@@ -3,6 +3,7 @@
    * Figure or table with connection of 7-segment displays on Nexys A7 board
  ![deska](board.png)
    * Decoder truth table common anode
+
 | **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -21,6 +22,7 @@
 | d | 1101 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
+
 # 2. Seven-segment display decoder
    * architecture
 ```vhdl
@@ -129,6 +131,7 @@ begin
 ```
 # 3. LED(7:4) indicators
    * truth table
+
 | **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 | 1 | 0 | 0 | 0 |
@@ -147,6 +150,7 @@ begin
 | d | 1101 | 0 | 1 | 1 | 0 |
 | E | 1110 | 0 | 1 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 0 |
+
    * code
 ```vhdl
 -- LED(7:4) indicators
