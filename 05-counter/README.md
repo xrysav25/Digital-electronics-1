@@ -1,9 +1,9 @@
 ## Lab 5
 # 1. Preparation tasks
-     * Figure or table with connection of push buttons on Nexys A7 board
-       ![deska](board.png)
-       pins: P17, M17, M18, P18, N17; voltage value: 3.3
-     * Table with calculated values
+ * Figure or table with connection of push buttons on Nexys A7 board
+   ![deska](board.png)
+   pins: P17, M17, M18, P18, N17; voltage value: 3.3
+ * Table with calculated values
 
    | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
    | :-: | :-: | :-: | :-: |
@@ -15,7 +15,7 @@
    | 1&nbsp;sec | 100 000 000 | `x"5F5_E100"` | `b"0101_1111_0101_1110_0001_0000_0000"` |
    
 # 2. Bidirectional counter
-     * process cnt_up_down
+ * process cnt_up_down
      
 ```vhdl
 p_cnt_up_down : process(clk)
@@ -118,7 +118,7 @@ begin
 end architecture testbench;
 ```
 
-     * testbench
+ * testbench
 ![testbench](testbench.jpg)
 
 # 3. Top level
