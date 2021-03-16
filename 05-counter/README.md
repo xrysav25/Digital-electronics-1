@@ -2,6 +2,7 @@
 # 1. Preparation tasks
  * Figure or table with connection of push buttons on Nexys A7 board
    ![deska](board.png)
+   
    pins: P17, M17, M18, P18, N17; voltage value: 3.3
  * Table with calculated values
 
@@ -39,7 +40,7 @@ begin
 end process p_cnt_up_down;
 ```  
   
-     *testbench
+ *testbench
 
 ```vhdl
 architecture testbench of tb_cnt_up_down is
@@ -184,4 +185,4 @@ begin
 
 end architecture Behavioral;
 ```
-![top](top.jpg)
+![top](top.png)
