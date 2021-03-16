@@ -1,9 +1,8 @@
 ## Lab 5
 # 1. Preparation tasks
- * Figure or table with connection of push buttons on Nexys A7 board
+ * Figure or table with connection of push buttons on Nexys A7 board, pins: P17, M17, M18, P18, N17; voltage value: 3.3
    ![deska](board.png)
    
-   pins: P17, M17, M18, P18, N17; voltage value: 3.3
  * Table with calculated values
 
    | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
