@@ -2,30 +2,31 @@
 # 1. Preparation task
 * rovnice: D: q(n+1)=d; JK: q(n+1)= j./q(n)+/k.q(n); T: q(n+1)= t./q(n)+/t.q(n)
 * tabulky:
+
 | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
 | :-: | :-: | :-: | :-: | :-- |
-| ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | No change |
-| ![rising](Images/eq_uparrow.png) | 0 | 1 | 0 | write d |
-| ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | write d |
-| ![rising](Images/eq_uparrow.png) | 1 | 1 | 1 | No change |
+| ![rising](eq_uparrow.png) | 0 | 0 | 0 | No change |
+| ![rising](eq_uparrow.png) | 0 | 1 | 0 | write d |
+| ![rising](eq_uparrow.png) | 1 | 0 | 1 | write d |
+| ![rising](eq_uparrow.png) | 1 | 1 | 1 | No change |
 
 | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
 | :-: | :-: | :-: | :-: | :-: | :-- |
-| ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | 0 | No change |
-| ![rising](Images/eq_uparrow.png) | 0 | 0 | 1 | 1 | No change |
-| ![rising](Images/eq_uparrow.png) | 0 | 1 | 0 | 0 | Reset |
-| ![rising](Images/eq_uparrow.png) | 0 | 1 | 1 | 0 | Reset |
-| ![rising](Images/eq_uparrow.png) | 1 | 0 | 0 | 1 | Set |
-| ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | 1 | Set |
-| ![rising](Images/eq_uparrow.png) | 1 | 1 | 0 | 1 | Inverse |
-| ![rising](Images/eq_uparrow.png) | 1 | 1 | 1 | 0 | Inverse |
+| ![rising](eq_uparrow.png) | 0 | 0 | 0 | 0 | No change |
+| ![rising](eq_uparrow.png) | 0 | 0 | 1 | 1 | No change |
+| ![rising](eq_uparrow.png) | 0 | 1 | 0 | 0 | Reset |
+| ![rising](eq_uparrow.png) | 0 | 1 | 1 | 0 | Reset |
+| ![rising](eq_uparrow.png) | 1 | 0 | 0 | 1 | Set |
+| ![rising](eq_uparrow.png) | 1 | 0 | 1 | 1 | Set |
+| ![rising](eq_uparrow.png) | 1 | 1 | 0 | 1 | Inverse |
+| ![rising](eq_uparrow.png) | 1 | 1 | 1 | 0 | Inverse |
 
 | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |
 | :-: | :-: | :-: | :-: | :-- |
-| ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | No change |
-| ![rising](Images/eq_uparrow.png) | 0 | 1 | 1 | No change |
-| ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | Inverse |
-| ![rising](Images/eq_uparrow.png) | 1 | 1 | 0 | Inverse |
+| ![rising](eq_uparrow.png) | 0 | 0 | 0 | No change |
+| ![rising](eq_uparrow.png) | 0 | 1 | 1 | No change |
+| ![rising](eq_uparrow.png) | 1 | 0 | 1 | Inverse |
+| ![rising](eq_uparrow.png) | 1 | 1 | 0 | Inverse |
 
 # 2. D latch
 * p_d_latch process
