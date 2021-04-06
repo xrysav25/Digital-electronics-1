@@ -149,7 +149,8 @@ end process p_output_fsm;
 
 # 3. Smart controller
 * State table
-| States, in/out | west_pin | south_pin | west_o | south_o | next state |
+
+| **States, in/out** | **west_pin** | **south_pin** | **west_o** | **south_o** | **next state** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | STOP1 | X | X | R | R | WEST_GO |
 | WEST_GO | X | 0/1 | G | R | WEST_GO/WEST_WAIT |
@@ -157,6 +158,7 @@ end process p_output_fsm;
 | STOP2 | X | X | R | R | SOUTH_GO |
 | SOUTH_GO | 0/1 | X | R | G | SOUTH_GO/SOUTH_WAIT |
 | SOUTH_WAIT | X | X | R | Y | STOP1 |
+
 * State diagram
 ![diagram](diagram1.png)
 * p_smart_traffic_fsm
