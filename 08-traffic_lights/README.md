@@ -1,4 +1,4 @@
-## LAB 7
+## LAB 8
 # 1. Preparation task
 | **Input P** | `0` | `0` | `1` | `1` | `0` | `1` | `0` | `1` | `1` | `1` | `1` | `0` | `0` | `1` | `1` | `1` |
 | :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -160,7 +160,7 @@ end process p_output_fsm;
 | SOUTH_WAIT | X | X | R | Y | STOP1 |
 
 * State diagram
-![diagram](diagram1.png)
+![diagram](diagram2.png)
 * p_smart_traffic_fsm
 ```vhdl
 p_smart_traffic_fsm : process(clk)
